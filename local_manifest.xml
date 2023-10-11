@@ -1,10 +1,14 @@
 <manifest>
   <!-- Remotes -->
   <remote name="realme-mt6785-devs" fetch="https://github.com/realme-mt6785-devs" />
+  <remote name="los" fetch="https://github.com/LineageOS" />
 
   <!-- project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" /-->
-  <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="lineage-20" remote="realme-mt6785-devs" />
+  <project path="device/realme/RM6785" name="android_device_realme_RM6785" revision="lineage-20-radio" remote="realme-mt6785-devs" />
   <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-20" remote="realme-mt6785-devs" />
-  <project path="vendor/realme" name="proprietary_vendor_realme" revision="lineage-20" remote="realme-mt6785-devs" />
-  <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master" remote="realme-mt6785-devs" />
+  <project path="vendor/realme" name="proprietary_vendor_realme" revision="lineage-20-radio" remote="realme-mt6785-devs" />
+  <project path="vendor/realme-firmware" name="proprietary_vendor_realme-firmware" revision="master-radio" remote="realme-mt6785-devs" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="realme-mt6785-devs" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20" remote="los" />
+
 </manifest>
